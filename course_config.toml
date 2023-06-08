@@ -1,0 +1,64 @@
+course = 'mooc-ohjelmointi-2023'
+[exercises.osa08-01_pienin_keskiarvo]
+id = 193207
+checksum = '5794126a2e2b2b0ad7ff820de0041252'
+
+[exercises.osa08-02_rivien_summmat]
+id = 193216
+checksum = 'a09b8b2bc6e11eecc62dde5e0c4e10d7'
+
+[exercises.osa08-03_vuodet_listaan]
+id = 193211
+checksum = 'ba34ed4b6a42f7ab91667fd7b8cbb732'
+
+[exercises.osa08-04_kauppalista]
+id = 193217
+checksum = 'b84f113452912c64b264d18c3d633a3a'
+
+[exercises.osa08-06_kirja]
+id = 193208
+checksum = '5445db96cc82713e73a955afe1c9463c'
+
+[exercises.osa08-07_kirjoita_luokat]
+id = 193205
+checksum = '756e5272614cf62f78a3cf05ef24c4ed'
+
+[exercises.osa08-07b_muodosta_lemmikki]
+id = 193215
+checksum = 'f3345fba967152c3688bfd2e030702e6'
+
+[exercises.osa08-08_vanhempi_kirja]
+id = 193212
+checksum = 'ed70da4603ac7d8c700cbc781c7c5b4a'
+
+[exercises.osa08-09_genren_kirjat]
+id = 193206
+checksum = '0c2f7df30c51a18a3bea21d1588dc1df'
+
+[exercises.osa08-10_vaheneva_laskuri]
+id = 193209
+checksum = 'b994d71d01083500b3c17be60180671b'
+
+[exercises.osa08-10b_etu_ja_sukunimi]
+id = 193213
+checksum = '362f6aa0ef0787ce52beec5991d03a68'
+
+[exercises.osa08-11_lukutilasto]
+id = 193214
+checksum = '2bfdba0c56f47f4cb23535d4965d462f'
+
+[exercises.osa08-11a_sekuntikello]
+id = 193204
+checksum = 'fc1ebaf7af089421efce29dce4ac6749'
+
+[exercises.osa08-12_kello]
+id = 193210
+checksum = '70b4277e4d89ec58db8741512719605d'
+
+[exercises.osa08-13_maksukortti]
+id = 193218
+checksum = '56c9fa1a753ed83741618e9a4324c793'
+
+[exercises.osa08-14_sarja]
+id = 193203
+checksum = '42da9bb9474d01a055cb5b2e15f28935'
