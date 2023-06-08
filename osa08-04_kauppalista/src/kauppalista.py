@@ -19,3 +19,17 @@ class Kauppalista:
 # ----------------------
 # Tee ratkaisusi tähän:
 # ----------------------
+
+def tuotteita_yhteensa(lista: Kauppalista):
+        tuotteita_yhteensa = 0
+        for tuote in lista.tuotteet:
+            tuotteita_yhteensa += tuote[1]
+        return tuotteita_yhteensa
+    
+if __name__ == "__main__":
+    lista = Kauppalista()
+    lista.lisaa("banaanit", 10)
+    lista.lisaa("omenat", 5)
+    lista.lisaa("ananas", 1)
+
+    print(tuotteita_yhteensa(lista))
