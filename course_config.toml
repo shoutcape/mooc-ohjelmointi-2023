@@ -62,3 +62,63 @@ checksum = '56c9fa1a753ed83741618e9a4324c793'
 [exercises.osa08-14_sarja]
 id = 193203
 checksum = '42da9bb9474d01a055cb5b2e15f28935'
+
+[exercises.osa09-01_nopein_auto]
+id = 193172
+checksum = '1deeb5e67d174e57b229a8ffb428d94d'
+
+[exercises.osa09-02_hyvaksytyt_suoritukset]
+id = 193181
+checksum = '0dcf8e42537166a0eb2bd7daec382770'
+
+[exercises.osa09-03_kasvatuslaitos]
+id = 193179
+checksum = 'e1f22b51abc2cd64bd2118c4959a9b0a'
+
+[exercises.osa09-04_maksukortti_ja_kassapaate]
+id = 193183
+checksum = 'e52656e44660e7ed09e6fe57d50b267c'
+
+[exercises.osa09-05_asuntovertailu]
+id = 193173
+checksum = 'e085356a12a04924d06d9fed97f4eb34'
+
+[exercises.osa09-06_lemmikki]
+id = 193171
+checksum = '841b090c8ed4e0d498e311db3e5cfc3a'
+
+[exercises.osa09-07_lahjapakkaus]
+id = 193174
+checksum = '584b296982a45e781b6d9902122a08b5'
+
+[exercises.osa09-08_huoneen_lyhin]
+id = 193175
+checksum = '97c1b8861f6abf726166522b2e48f3ef'
+
+[exercises.osa09-09_auto]
+id = 193170
+checksum = '6c07f744554f14ace5d026be3bcaff74'
+
+[exercises.osa09-10_aanite]
+id = 193176
+checksum = 'b3afd2bde3cc37061ec23a366b508e2b'
+
+[exercises.osa09-11_havaintoasema]
+id = 193182
+checksum = 'a73ab3fbcbe8ef247b9f1c190b5ec6ee'
+
+[exercises.osa09-12_palvelumaksu]
+id = 193180
+checksum = '704950040e3c34d9bbd6364c28f93ff2'
+
+[exercises.osa09-13_postinumerot]
+id = 193177
+checksum = '130bc331bf990eb8a3f058ab9b61619a'
+
+[exercises.osa09-14_lista_apuri]
+id = 193178
+checksum = '0a8f48272b7129da4859263376c59b77'
+
+[exercises.osa09-15_tavara_matkalaukku_lastiruuma]
+id = 193184
+checksum = '94e01bbc47707a19f2fcfc99f9998957'
