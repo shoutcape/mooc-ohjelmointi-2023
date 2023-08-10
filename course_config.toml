@@ -122,3 +122,51 @@ checksum = '0a8f48272b7129da4859263376c59b77'
 [exercises.osa09-15_tavara_matkalaukku_lastiruuma]
 id = 193184
 checksum = '94e01bbc47707a19f2fcfc99f9998957'
+
+[exercises.osa10-01_kannettava_tietokone]
+id = 193119
+checksum = 'eb52214c96317bcc22a7a42ac757faf7'
+
+[exercises.osa10-02_pelimuseo]
+id = 193110
+checksum = 'df0b57a31271ea7733342c3937ff92a1'
+
+[exercises.osa10-03_pinta_alat]
+id = 193117
+checksum = '9e63e71550f327f2341c87c4acce93f3'
+
+[exercises.osa10-04_sanapeli]
+id = 193116
+checksum = 'b78a539f4815a5012d9f5207e8e2b72b'
+
+[exercises.osa10-05_superryhma]
+id = 193112
+checksum = 'ab692276660ca8c57536942828649750'
+
+[exercises.osa10-06_salainen_taikajuoma]
+id = 193109
+checksum = '2f5f18d5ee6ee7fee8231f1744bb4942'
+
+[exercises.osa10-07_raha]
+id = 193114
+checksum = '1ee0d5d67befe9c5583dfd6eb67509ee'
+
+[exercises.osa10-08_paivays]
+id = 193120
+checksum = '45b72d0731c27e62722575601e102465'
+
+[exercises.osa10-09_iteroitava_kauppalista]
+id = 193111
+checksum = 'd700d07c1e870c95a823b9d39939cf03'
+
+[exercises.osa10-10_puhelinluettelo_osa1]
+id = 193113
+checksum = '1c0ff582bac8df2d4d7aa6169e50badb'
+
+[exercises.osa10-11_puhelinluettelo_osa2]
+id = 193115
+checksum = '27c10a36e6afdae67e369d87b615c74c'
+
+[exercises.osa10-12_opintorekisteri]
+id = 193118
+checksum = '339ec797988965d946537f6b2eb7db38'
