@@ -9,3 +9,24 @@ class Suorakulmio:
 
     def pinta_ala(self):
         return self.leveys * self.korkeus
+
+
+class Nelio(Suorakulmio):
+    def __init__(self, leveys: int):
+        super().__init__(leveys, korkeus=leveys)
+
+        
+    def __str__(self):
+        return f"neliö {self.leveys}x{self.korkeus}"
+    
+    def pinta_ala(self):
+        return self.leveys ** 2
+
+if __name__ == "__main__":
+    suorakulmio = Suorakulmio(2, 3)
+    print(suorakulmio)
+    print("pinta-ala:", suorakulmio.pinta_ala())
+    
+    nelio = Nelio(4)
+    print(nelio)
+    print("pinta-ala:", nelio.pinta_ala())

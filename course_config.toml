@@ -1,172 +1,249 @@
-course = 'mooc-ohjelmointi-2023'
+course = "mooc-ohjelmointi-2023"
+
 [exercises.osa08-01_pienin_keskiarvo]
 id = 193207
-checksum = '5794126a2e2b2b0ad7ff820de0041252'
+checksum = "5794126a2e2b2b0ad7ff820de0041252"
 
 [exercises.osa08-02_rivien_summmat]
 id = 193216
-checksum = 'a09b8b2bc6e11eecc62dde5e0c4e10d7'
+checksum = "a09b8b2bc6e11eecc62dde5e0c4e10d7"
 
 [exercises.osa08-03_vuodet_listaan]
 id = 193211
-checksum = 'ba34ed4b6a42f7ab91667fd7b8cbb732'
+checksum = "ba34ed4b6a42f7ab91667fd7b8cbb732"
 
 [exercises.osa08-04_kauppalista]
 id = 193217
-checksum = 'b84f113452912c64b264d18c3d633a3a'
+checksum = "b84f113452912c64b264d18c3d633a3a"
 
 [exercises.osa08-06_kirja]
 id = 193208
-checksum = '5445db96cc82713e73a955afe1c9463c'
+checksum = "5445db96cc82713e73a955afe1c9463c"
 
 [exercises.osa08-07_kirjoita_luokat]
 id = 193205
-checksum = '756e5272614cf62f78a3cf05ef24c4ed'
+checksum = "756e5272614cf62f78a3cf05ef24c4ed"
 
 [exercises.osa08-07b_muodosta_lemmikki]
 id = 193215
-checksum = 'f3345fba967152c3688bfd2e030702e6'
+checksum = "f3345fba967152c3688bfd2e030702e6"
 
 [exercises.osa08-08_vanhempi_kirja]
 id = 193212
-checksum = 'ed70da4603ac7d8c700cbc781c7c5b4a'
+checksum = "ed70da4603ac7d8c700cbc781c7c5b4a"
 
 [exercises.osa08-09_genren_kirjat]
 id = 193206
-checksum = '0c2f7df30c51a18a3bea21d1588dc1df'
+checksum = "0c2f7df30c51a18a3bea21d1588dc1df"
 
 [exercises.osa08-10_vaheneva_laskuri]
 id = 193209
-checksum = 'b994d71d01083500b3c17be60180671b'
+checksum = "b994d71d01083500b3c17be60180671b"
 
 [exercises.osa08-10b_etu_ja_sukunimi]
 id = 193213
-checksum = '362f6aa0ef0787ce52beec5991d03a68'
+checksum = "362f6aa0ef0787ce52beec5991d03a68"
 
 [exercises.osa08-11_lukutilasto]
 id = 193214
-checksum = '2bfdba0c56f47f4cb23535d4965d462f'
+checksum = "2bfdba0c56f47f4cb23535d4965d462f"
 
 [exercises.osa08-11a_sekuntikello]
 id = 193204
-checksum = 'fc1ebaf7af089421efce29dce4ac6749'
+checksum = "fc1ebaf7af089421efce29dce4ac6749"
 
 [exercises.osa08-12_kello]
 id = 193210
-checksum = '70b4277e4d89ec58db8741512719605d'
+checksum = "70b4277e4d89ec58db8741512719605d"
 
 [exercises.osa08-13_maksukortti]
 id = 193218
-checksum = '56c9fa1a753ed83741618e9a4324c793'
+checksum = "56c9fa1a753ed83741618e9a4324c793"
 
 [exercises.osa08-14_sarja]
 id = 193203
-checksum = '42da9bb9474d01a055cb5b2e15f28935'
+checksum = "42da9bb9474d01a055cb5b2e15f28935"
 
 [exercises.osa09-01_nopein_auto]
 id = 193172
-checksum = '1deeb5e67d174e57b229a8ffb428d94d'
+checksum = "1deeb5e67d174e57b229a8ffb428d94d"
 
 [exercises.osa09-02_hyvaksytyt_suoritukset]
 id = 193181
-checksum = '0dcf8e42537166a0eb2bd7daec382770'
+checksum = "0dcf8e42537166a0eb2bd7daec382770"
 
 [exercises.osa09-03_kasvatuslaitos]
 id = 193179
-checksum = 'e1f22b51abc2cd64bd2118c4959a9b0a'
+checksum = "e1f22b51abc2cd64bd2118c4959a9b0a"
 
 [exercises.osa09-04_maksukortti_ja_kassapaate]
 id = 193183
-checksum = 'e52656e44660e7ed09e6fe57d50b267c'
+checksum = "e52656e44660e7ed09e6fe57d50b267c"
 
 [exercises.osa09-05_asuntovertailu]
 id = 193173
-checksum = 'e085356a12a04924d06d9fed97f4eb34'
+checksum = "e085356a12a04924d06d9fed97f4eb34"
 
 [exercises.osa09-06_lemmikki]
 id = 193171
-checksum = '841b090c8ed4e0d498e311db3e5cfc3a'
+checksum = "841b090c8ed4e0d498e311db3e5cfc3a"
 
 [exercises.osa09-07_lahjapakkaus]
 id = 193174
-checksum = '584b296982a45e781b6d9902122a08b5'
+checksum = "584b296982a45e781b6d9902122a08b5"
 
 [exercises.osa09-08_huoneen_lyhin]
 id = 193175
-checksum = '97c1b8861f6abf726166522b2e48f3ef'
+checksum = "97c1b8861f6abf726166522b2e48f3ef"
 
 [exercises.osa09-09_auto]
 id = 193170
-checksum = '6c07f744554f14ace5d026be3bcaff74'
+checksum = "6c07f744554f14ace5d026be3bcaff74"
 
 [exercises.osa09-10_aanite]
 id = 193176
-checksum = 'b3afd2bde3cc37061ec23a366b508e2b'
+checksum = "b3afd2bde3cc37061ec23a366b508e2b"
 
 [exercises.osa09-11_havaintoasema]
 id = 193182
-checksum = 'a73ab3fbcbe8ef247b9f1c190b5ec6ee'
+checksum = "a73ab3fbcbe8ef247b9f1c190b5ec6ee"
 
 [exercises.osa09-12_palvelumaksu]
 id = 193180
-checksum = '704950040e3c34d9bbd6364c28f93ff2'
+checksum = "704950040e3c34d9bbd6364c28f93ff2"
 
 [exercises.osa09-13_postinumerot]
 id = 193177
-checksum = '130bc331bf990eb8a3f058ab9b61619a'
+checksum = "130bc331bf990eb8a3f058ab9b61619a"
 
 [exercises.osa09-14_lista_apuri]
 id = 193178
-checksum = '0a8f48272b7129da4859263376c59b77'
+checksum = "0a8f48272b7129da4859263376c59b77"
 
 [exercises.osa09-15_tavara_matkalaukku_lastiruuma]
 id = 193184
-checksum = '94e01bbc47707a19f2fcfc99f9998957'
+checksum = "94e01bbc47707a19f2fcfc99f9998957"
 
 [exercises.osa10-01_kannettava_tietokone]
 id = 193119
-checksum = 'eb52214c96317bcc22a7a42ac757faf7'
+checksum = "eb52214c96317bcc22a7a42ac757faf7"
 
 [exercises.osa10-02_pelimuseo]
 id = 193110
-checksum = 'df0b57a31271ea7733342c3937ff92a1'
+checksum = "df0b57a31271ea7733342c3937ff92a1"
 
 [exercises.osa10-03_pinta_alat]
 id = 193117
-checksum = '9e63e71550f327f2341c87c4acce93f3'
+checksum = "9e63e71550f327f2341c87c4acce93f3"
 
 [exercises.osa10-04_sanapeli]
 id = 193116
-checksum = 'b78a539f4815a5012d9f5207e8e2b72b'
+checksum = "b78a539f4815a5012d9f5207e8e2b72b"
 
 [exercises.osa10-05_superryhma]
 id = 193112
-checksum = 'ab692276660ca8c57536942828649750'
+checksum = "ab692276660ca8c57536942828649750"
 
 [exercises.osa10-06_salainen_taikajuoma]
 id = 193109
-checksum = '2f5f18d5ee6ee7fee8231f1744bb4942'
+checksum = "2f5f18d5ee6ee7fee8231f1744bb4942"
 
 [exercises.osa10-07_raha]
 id = 193114
-checksum = '1ee0d5d67befe9c5583dfd6eb67509ee'
+checksum = "1ee0d5d67befe9c5583dfd6eb67509ee"
 
 [exercises.osa10-08_paivays]
 id = 193120
-checksum = '45b72d0731c27e62722575601e102465'
+checksum = "45b72d0731c27e62722575601e102465"
 
 [exercises.osa10-09_iteroitava_kauppalista]
 id = 193111
-checksum = 'd700d07c1e870c95a823b9d39939cf03'
+checksum = "d700d07c1e870c95a823b9d39939cf03"
 
 [exercises.osa10-10_puhelinluettelo_osa1]
 id = 193113
-checksum = '1c0ff582bac8df2d4d7aa6169e50badb'
+checksum = "1c0ff582bac8df2d4d7aa6169e50badb"
 
 [exercises.osa10-11_puhelinluettelo_osa2]
 id = 193115
-checksum = '27c10a36e6afdae67e369d87b615c74c'
+checksum = "27c10a36e6afdae67e369d87b615c74c"
 
 [exercises.osa10-12_opintorekisteri]
 id = 193118
-checksum = '339ec797988965d946537f6b2eb7db38'
+checksum = "339ec797988965d946537f6b2eb7db38"
+
+[exercises.osa11-01_neliojuuret]
+id = 193097
+checksum = "d9d13f455770d03f5de311936172d38e"
+
+[exercises.osa11-02_tahtirivit]
+id = 193101
+checksum = "2bb086cd87dc99260da3598671363483"
+
+[exercises.osa11-03_paras_koetulos]
+id = 193096
+checksum = "c365de9ece8a4c7ead13d7274c62dbfb"
+
+[exercises.osa11-04_pituudet]
+id = 193103
+checksum = "8f35d82606cecfb7c9370bd053a874b1"
+
+[exercises.osa11-05_poista_pienemmat]
+id = 193102
+checksum = "6f2035288aabe537fa5fa232eaf3fd3e"
+
+[exercises.osa11-06_vokaalilla_alkavat]
+id = 193104
+checksum = "24408aa7113715750eded08b9430d6ef"
+
+[exercises.osa11-07_lottorivi]
+id = 193094
+checksum = "825a255b0b347954423a656efa99fc4b"
+
+[exercises.osa11-08_suodata_kielletyt]
+id = 193107
+checksum = "4c89958f793f510cd6aacde9fb25fbfb"
+
+[exercises.osa11-09_kauppalistan_tuotteet]
+id = 193098
+checksum = "0e64fd6fab74456f3140139692aff96d"
+
+[exercises.osa11-10_halvempien_hintaero]
+id = 193095
+checksum = "47bcd28a68f53509aa945898f37a55cd"
+
+[exercises.osa11-11_merkkijonojen_pituudet]
+id = 193090
+checksum = "88f53ace91575507de91941f7a41d7b5"
+
+[exercises.osa11-12_yleisimmat_sanat]
+id = 193105
+checksum = "1b5f7765b2131d7a8d027c95f9de38a1"
+
+[exercises.osa11-13_listaan_lukuja]
+id = 193100
+checksum = "ed0c58a4cafffbdd72d9846d176e154a"
+
+[exercises.osa11-14_rekursiivinen_summa]
+id = 193091
+checksum = "90534b1fa3b9dd661684d506077bf3b8"
+
+[exercises.osa11-15_sulut_tasapainossa]
+id = 193093
+checksum = "4ffbfc3789904564113ad17e0b131b7c"
+
+[exercises.osa11-16_suurin_alkio]
+id = 193092
+checksum = "f7634c64c9408df4fea7a6b7edfcbc0a"
+
+[exercises.osa11-17_pomot_ja_alaiset]
+id = 193099
+checksum = "75930dd5cf74d8068dbef47f949e3de1"
+
+[exercises.osa11-18_tilauskirja]
+id = 193106
+checksum = "5b02291bc5ecbb990b7269b627e410ac"
+
+[exercises.osa11-19_tilauskirjasovellus]
+id = 193089
+checksum = "07c7c4ac25b11042bc62f0d3597db4c7"
