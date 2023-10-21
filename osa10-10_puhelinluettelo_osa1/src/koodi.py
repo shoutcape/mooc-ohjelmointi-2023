@@ -13,8 +13,15 @@ class Puhelinluettelo:
         if not nimi in self.__henkilot:
             return None
         return self.__henkilot[nimi]
-
-
+    
+    def hae_nimet(self, numero: str):
+        nimet = []
+        for nimi, numerot in self.__henkilot.items():
+            if numero in numerot:
+                nimet.append(nimi)
+                
+        return nimet if nimet else None
+    
     def kaikki_tiedot(self):
         return self.__henkilot
 
@@ -53,6 +60,7 @@ class PuhelinluetteloSovellus:
         print("0 lopetus")
         print("1 lisäys")
         print("2 haku")
+        print("3 haku numeron perusteella")
 
     def lisays(self):
         nimi = input("nimi: ")
@@ -66,7 +74,16 @@ class PuhelinluetteloSovellus:
             print("numero ei tiedossa") 
             return 
         for numero in numerot:
-            print(numero)       
+            print(numero)
+            
+    def numerohaku(self):
+        numero = input("numero: ")
+        nimet = self.__luettelo.hae_nimet(numero)
+        if nimet == None:
+            print("tuntematon numero")
+            return
+        for nimi in nimet:
+            print(nimi)
 
     def lopetus(self):
         self.__tiedosto.talleta(self.__luettelo.kaikki_tiedot())
@@ -84,9 +101,14 @@ class PuhelinluetteloSovellus:
                 self.lisays()
             elif komento == "2":
                 self.haku()
+            elif komento == "3":
+                self.numerohaku()
+            
             else:
                 self.ohje()
 
 # kun testaat, mitään muuta koodia ei saa olla luokkien ulkopuolella kuin seuraavat rivit
 sovellus = PuhelinluetteloSovellus()
 sovellus.suorita()
+
+
