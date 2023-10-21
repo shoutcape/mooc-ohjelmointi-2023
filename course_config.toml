@@ -247,3 +247,63 @@ checksum = "5b02291bc5ecbb990b7269b627e410ac"
 [exercises.osa11-19_tilauskirjasovellus]
 id = 193089
 checksum = "07c7c4ac25b11042bc62f0d3597db4c7"
+
+[exercises.osa12-01_varastosaldo]
+id = 193078
+checksum = "bdfb18b77628adcc0164ab85a2a0356b"
+
+[exercises.osa12-02_tuotantokaudet]
+id = 193080
+checksum = "00d375eb1a8b8076d00480cc9dfc6f82"
+
+[exercises.osa12-03_pisteiden_mukaan]
+id = 193082
+checksum = "872cbdd0fd415d4675cb4c3c387800a4"
+
+[exercises.osa12-04_kiipeilyreitti]
+id = 193083
+checksum = "1e7f40b72cb1ff8d4d1c65f8f380d68a"
+
+[exercises.osa12-05_kiipeilykalliot]
+id = 193075
+checksum = "0a11c4a2ca6d212bbc126bf74b152f97"
+
+[exercises.osa12-06_palloilijat]
+id = 193076
+checksum = "af807b6f51c0320d3587299b3bc6b58e"
+
+[exercises.osa12-07_tuotteiden_haku]
+id = 193084
+checksum = "55f8862b0b807eb2155478fc0650a890"
+
+[exercises.osa12-08_parilliset]
+id = 193087
+checksum = "45508c599fa2e78aff1a7185e871fab2"
+
+[exercises.osa12-09_alkuluvut]
+id = 193081
+checksum = "bf3758643597f2a199b68bf13ea753fa"
+
+[exercises.osa12-10_satunnaiset_sanat]
+id = 193077
+checksum = "df8d475ec101bbf6fe2af18d557b5061"
+
+[exercises.osa12-11_suoritukset]
+id = 193085
+checksum = "d66062e0642015b08b9d41329ead3df4"
+
+[exercises.osa12-12_rajatut_suoritukset]
+id = 193086
+checksum = "971710864ca02f560b9c4df7335dff76"
+
+[exercises.osa12-13_opintopisteet]
+id = 193074
+checksum = "5102ef8ebf6361f6e90237656c6ee5b9"
+
+[exercises.osa12-14_saannolliset_lausekkeet]
+id = 193088
+checksum = "abed194653aac270da77c79fa7a06bac"
+
+[exercises.osa12-15_tilastot_ojennukseen]
+id = 193079
+checksum = "83c07fd0e697bbfd799b43dfeb97b6e2"

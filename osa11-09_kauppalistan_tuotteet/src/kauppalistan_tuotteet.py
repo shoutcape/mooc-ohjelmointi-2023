@@ -20,3 +20,18 @@ class Kauppalista:
             return tuote
         else:
             raise StopIteration
+
+def kauppalistan_tuotteet(kauppalista, maara: int):
+    return [tuote[0] for tuote in kauppalista if tuote[1] >= maara]
+    
+
+if __name__ == "__main__":
+    lista = Kauppalista()
+    lista.lisaa("banaanit", 10)
+    lista.lisaa("omenat", 5)
+    lista.lisaa("alkoholiton olut", 24)
+    lista.lisaa("ananas", 1)
+
+    print("kauppalistalla vähintään 8 seuraavia tuotteita:")
+    for tuote in kauppalistan_tuotteet(lista, 8):
+        print(tuote)
