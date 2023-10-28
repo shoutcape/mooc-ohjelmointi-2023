@@ -307,3 +307,71 @@ checksum = "abed194653aac270da77c79fa7a06bac"
 [exercises.osa12-15_tilastot_ojennukseen]
 id = 193079
 checksum = "83c07fd0e697bbfd799b43dfeb97b6e2"
+
+[exercises.osa13-01_nelja_robottia]
+id = 193033
+checksum = "b9f8f49288fafe8561e68779f95c0959"
+
+[exercises.osa13-02_robotit_rivissa]
+id = 193032
+checksum = "935f246232ad6934047d221bb1cb29ab"
+
+[exercises.osa13-03_sata_robottia]
+id = 193031
+checksum = "5c8c7219dd1ab89339dc856fd9caaea2"
+
+[exercises.osa13-04_satunnaiset_robotit]
+id = 193020
+checksum = "498a054312401f15cd70d231c1e7f187"
+
+[exercises.osa13-05_pystyliike]
+id = 193022
+checksum = "8296c99a25aac87aad20a12face10a85"
+
+[exercises.osa13-06_reunan_kierto]
+id = 193019
+checksum = "af9fa769be917014e06b2ae57ca5131f"
+
+[exercises.osa13-07_kaksi_robottia]
+id = 193023
+checksum = "5fc2b87d755dad1c4663e553fe9ab7dd"
+
+[exercises.osa13-08_piirileikki]
+id = 193030
+checksum = "9ca3d4489351f35496aa57dd7012ce4f"
+
+[exercises.osa13-09_pomppiva_pallo]
+id = 193024
+checksum = "03ddc91ae2defe7f932f9e17db1e4109"
+
+[exercises.osa13-10_robotti_invaasio]
+id = 193025
+checksum = "63efe8d80cc6169f9ee15660b0589324"
+
+[exercises.osa13-11_nelja_suuntaa]
+id = 193026
+checksum = "30e80c51d47ec66bfac07132b059c0a0"
+
+[exercises.osa13-12_nelja_seinaa]
+id = 193035
+checksum = "1264c3229f32b26ca68c771c673a1d55"
+
+[exercises.osa13-13_kaksi_pelaajaa]
+id = 193021
+checksum = "c050a2108cdffb5f1a7c528d85047c76"
+
+[exercises.osa13-14_robotti_ja_hiiri]
+id = 193034
+checksum = "18d89610688de0c89a8c1372450b5728"
+
+[exercises.osa13-15_robotin_paikka]
+id = 193028
+checksum = "44fad0b6bd7431493f519f9e6476c10d"
+
+[exercises.osa13-16_kello]
+id = 193029
+checksum = "70856c2a52c8b4a52a7aa9bb53141eec"
+
+[exercises.osa13-17_asteroidit]
+id = 193027
+checksum = "bf431c5f913820d7b44b6947291961e3"

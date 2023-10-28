@@ -30,3 +30,35 @@ class Kiipeilykallio:
         vaikein_reitti = self.vaikein_reitti()
         return f"{self.nimi} {self.reitteja()} reittiä, vaikein {vaikein_reitti.grade}"
 
+
+def reittien_maaran_mukaan(kalliot: list):
+    def reitit(kallio: tuple):
+        return kallio.reitteja()
+    return sorted(kalliot, key= reitit)
+
+def vaikeimman_reitin_mukaan(kalliot: list):
+    def palauta_vaikein(kallio: tuple):
+        return kallio.vaikein_reitti().grade
+    return sorted(kalliot, key= palauta_vaikein, reverse= True)
+        
+
+if __name__ == "__main__":
+    k1 = Kiipeilykallio("Olhava")
+    k1.lisaa_reitti(Kiipeilyreitti("Kantti", 38, "6A+"))
+    k1.lisaa_reitti(Kiipeilyreitti("Suuri leikkaus", 36, "6B"))
+    k1.lisaa_reitti(Kiipeilyreitti("Ruotsalaisten reitti", 42, "5+"))
+
+    k2 = Kiipeilykallio("Nummi")
+    k2.lisaa_reitti(Kiipeilyreitti("Syncro", 14, "8C+"))
+
+    k3 = Kiipeilykallio("Nalkkilan släbi")
+    k3.lisaa_reitti(Kiipeilyreitti("Pieniä askelia", 12, "6A+"))
+    k3.lisaa_reitti(Kiipeilyreitti("Smooth operator", 11, "7A"))
+    k3.lisaa_reitti(Kiipeilyreitti("Possu ei pidä", 12 , "6B+"))
+    k3.lisaa_reitti(Kiipeilyreitti("Hedelmätarha", 8, "6A"))
+
+# k1, k2 ja k3 määritelty kuten edellä
+
+    kalliot = [k1, k2, k3]
+    for kallio in vaikeimman_reitin_mukaan(kalliot):
+        print(kallio)
