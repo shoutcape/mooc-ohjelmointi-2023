@@ -136,7 +136,3 @@ komennot:
     
     
 ohjelma().suorita()
-
-
-# John Klingberg       DAL   6 + 26 =  32
-# John Klingberg        DAL  6 + 26 =  32
