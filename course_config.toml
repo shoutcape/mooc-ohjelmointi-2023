@@ -375,3 +375,7 @@ checksum = "70856c2a52c8b4a52a7aa9bb53141eec"
 [exercises.osa13-17_asteroidit]
 id = 193027
 checksum = "bf431c5f913820d7b44b6947291961e3"
+
+[exercises.osa14-01_pelin_palautus]
+id = 193108
+checksum = "5d76f063aff342042285a2bd92a10993"

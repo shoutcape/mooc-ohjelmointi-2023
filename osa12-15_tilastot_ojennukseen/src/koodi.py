@@ -18,29 +18,25 @@ class Pelaaja:
 class ohjelma:
     def __init__(self):
         self.pelaajat = []
-        self.name = "name"
-        self.nationality = "nationality"
-        self.assists = "assists"
-        self.goals = "goals"
-        self.team = "team"
-        self.games = "games"
         
         
-    
+
     def syota_tiedosto(self):
         tiedosto = input("tiedosto: ")
         with open (tiedosto, "r") as file:
-            self.data  = file.read()
-        self.pelaajatiedot = json.loads(self.data)
-        print(f"luettiin {len(self.pelaajatiedot)} pelaajan tiedot")
-        self.pelaajat_objektiksi()
+            self.pelaajat = json.load(file, object_hook=self.pelaajat_objektiksi)
+            # self.data  = file.read()
+        # self.pelaajatiedot = json.loads(self.data)
+        print(f"luettiin {len(self.pelaajat)} pelaajan tiedot")
+        # self.pelaajat_objektiksi()
         
     def lisaa_pelaaja(self, pelaaja):
         self.pelaajat.append(pelaaja)
         
-    def pelaajat_objektiksi(self):
-        for pelaaja in self.pelaajatiedot:
-            self.lisaa_pelaaja(Pelaaja(pelaaja["name"],pelaaja["nationality"], pelaaja["assists"], pelaaja["goals"], pelaaja["penalties"], pelaaja["team"], pelaaja["games"]))
+    def pelaajat_objektiksi(self,pelaajat):
+        return Pelaaja(**pelaajat)
+        # for pelaaja in self.pelaajatiedot:
+        #     self.lisaa_pelaaja(Pelaaja(pelaaja["name"],pelaaja["nationality"], pelaaja["assists"], pelaaja["goals"], pelaaja["penalties"], pelaaja["team"], pelaaja["games"]))
             
         
     def hae_pelaaja(self):
@@ -106,11 +102,6 @@ komennot:
 6 eniten pisteitä
 7 eniten maaleja''')
         
-
-        
-        
-
-
     def suorita(self):
         self.syota_tiedosto()
         self.ohjeet()
