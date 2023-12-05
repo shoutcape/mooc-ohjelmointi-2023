@@ -20,13 +20,12 @@ while True:
             exit()
     for i in range(maara):
         x = leveys/2+math.cos(kulma+2*math.pi*i/maara)*sade-robo.get_width()/2
-        y = 240+math.sin(kulma+i*120)*140-robo.get_height()/2
         y = korkeus/2+math.sin(kulma+2*math.pi*i/maara)*sade-robo.get_height()/2
 
         naytto.blit(robo, (x, y))
 
     pygame.display.flip()
-    kulma += 0.1
+    kulma += 0.01
     
     naytto.fill((0, 0, 0))
     kello.tick(60)

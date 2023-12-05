@@ -98,7 +98,7 @@ suorittajien_nimet([s1, s2, s3])
             output += n + "\n"
             vast.append(n)
 
-        self.assertEquals(sorted(vast), sorted(exp),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa nimet \n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(sorted(vast), sorted(exp),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa nimet \n{s(exp)}\nfunktio palautti\n{output}")
 
     @points('12.suoritukset_osa1')
     def test_04_suorittajien_nimet_map_kaytossa(self):
@@ -157,7 +157,7 @@ suorittajien_nimet([s1, s2, s3, s4, s5, s6])
             output += n + "\n"
             vast.append(n)
 
-        self.assertEquals(sorted(vast), sorted(exp),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa nimet \n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(sorted(vast), sorted(exp),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa nimet \n{s(exp)}\nfunktio palautti\n{output}")
 
     @points('12.suoritukset_osa2')
     def test_06_funktio_kurssien_nimet_olemassa(self):
@@ -292,7 +292,7 @@ kurssien_nimet([s1, s2, s3, s4, s5, s6])
             output += n + "\n"
             vast.append(n)
 
-        self.assertEquals(sorted(vast), sorted(exp),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa kurssit\n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(sorted(vast), sorted(exp),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa kurssit\n{s(exp)}\nfunktio palautti\n{output}")
 
 
 if __name__ == '__main__':

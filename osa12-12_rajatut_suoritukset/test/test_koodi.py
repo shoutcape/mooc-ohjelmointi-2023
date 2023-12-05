@@ -101,7 +101,7 @@ hyvaksytyt([s1, s2, s3])
         def nimi(s):
             return s.kurssi
 
-        self.assertEquals(sorted(vast, key=nimi), sorted(exp,key=nimi),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(sorted(vast, key=nimi), sorted(exp,key=nimi),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
 
     @points('12.rajatut_suoritukset_osa1')
     def test_04_hyvaksytyt_filter_kaytossa(self):
@@ -168,7 +168,7 @@ hyvaksytyt([s1, s2, s3, s4, s5, s6])
         def nimi(s):
             return s.kurssi
 
-        self.assertEquals(sorted(vast, key=nimi), sorted(exp,key=nimi),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(sorted(vast, key=nimi), sorted(exp,key=nimi),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
 
     @points('12.rajatut_suoritukset_osa2')
     def test_06_funktio_suoritus_arvosanalla_olemassa(self):
@@ -238,7 +238,7 @@ suoritus_arvosanalla([s1, s2, s3], 3)
         def nimi(s):
             return s.kurssi
 
-        self.assertEquals(sorted(vast, key=nimi), sorted(exp,key=nimi),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(sorted(vast, key=nimi), sorted(exp,key=nimi),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
 
     @points('12.rajatut_suoritukset_osa2')
     def test_09_suoritus_arvosanalla_filter_kaytossa(self):
@@ -305,7 +305,7 @@ suoritus_arvosanalla([s1, s2, s3, s4, s5, s6].)
         def nimi(s):
             return s.kurssi
 
-        self.assertEquals(sorted(vast, key=nimi), sorted(exp,key=nimi),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(sorted(vast, key=nimi), sorted(exp,key=nimi),  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
 
 
     @points('12.rajatut_suoritukset_osa3')
@@ -380,7 +380,7 @@ kurssin_suorittajat([s1, s2, s3, s4], "Ohjelmoinnin perusteet")
             output += f"{n}\n"
             vast.append(n)
 
-        self.assertEquals(vast, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(vast, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
 
     @points('12.rajatut_suoritukset_osa3')
     def test_14_kurssin_suorittajat_map_ja_filter_kaytossa(self):
@@ -447,7 +447,7 @@ kurssin_suorittajat([s1, s2, s3, s4, s5, s6, s7], "Tietoliikenteen perusteet")
             output += f"{n}\n"
             vast.append(n)
 
-        self.assertEquals(vast, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
+        self.assertEqual(vast, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa \n{s(exp)}\nfunktio palautti\n{output}")
 
 
 if __name__ == '__main__':

@@ -87,7 +87,7 @@ kaikkien_opintopisteiden_summa([s1, s2, s3])
 
         exp = 20
 
-        self.assertEquals(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
+        self.assertEqual(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
 
     @points('12.opintopisteet_osa1')
     def test_04_opintopisteiden_summa_reduce_kaytossa(self):
@@ -143,7 +143,7 @@ kaikkien_opintopisteiden_summa([s1, s2, s3, s4, s5, s6])
 
         exp = 33
 
-        self.assertEquals(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
+        self.assertEqual(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
 
     @points('12.opintopisteet_osa2')
     def test_06_funktio_hyvaksyttyjen_opintopisteiden_summa_olemassa(self):
@@ -197,7 +197,7 @@ hyvaksyttyjen_opintopisteiden_summa([s1, s2, s3])
 
         exp = 10
 
-        self.assertEquals(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
+        self.assertEqual(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
 
 
     @points('12.opintopisteet_osa2')
@@ -256,7 +256,7 @@ hyvaksyttyjen_opintopisteiden_summa([s1, s2, s3, s4, s5, s6])
 
         exp = 21
 
-        self.assertEquals(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
+        self.assertEqual(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
 
     @points('12.opintopisteet_osa3')
     def test_11_funktio_keskiarvo_olemassa(self):
@@ -310,7 +310,7 @@ keskiarvo([s1, s2, s3])
 
         exp = 4
 
-        self.assertEquals(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
+        self.assertEqual(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
 
     @points('12.opintopisteet_osa3')
     def test_14_opintopisteiden_summa_reduce_kaytossa(self):
@@ -361,7 +361,7 @@ keskiarvo([s1, s2, s3])
 
         exp = 4.5
 
-        self.assertEquals(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
+        self.assertEqual(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
 
     @points('12.opintopisteet_osa3')
     def test_16_keskiarvo_toimii_2(self):
@@ -391,7 +391,7 @@ keskiarvo([s1, s2, s3, s4, s5, s6])
 
         exp = 4.2
 
-        self.assertEquals(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
+        self.assertEqual(vastaus, exp,  f"Kun suoritetaan koodi {koodi}pitäisi palauttaa\n{exp}\nfunktio palautti\n{vastaus}")
 
 
 if __name__ == '__main__':

@@ -290,15 +290,15 @@ checksum = "df8d475ec101bbf6fe2af18d557b5061"
 
 [exercises.osa12-11_suoritukset]
 id = 193085
-checksum = "d66062e0642015b08b9d41329ead3df4"
+checksum = "1e110f75358188f59670bb6b09d5e329"
 
 [exercises.osa12-12_rajatut_suoritukset]
 id = 193086
-checksum = "971710864ca02f560b9c4df7335dff76"
+checksum = "8ed6bb70d4320c6aeced4181404f8804"
 
 [exercises.osa12-13_opintopisteet]
 id = 193074
-checksum = "5102ef8ebf6361f6e90237656c6ee5b9"
+checksum = "26b3027558afba18a0554e8328211998"
 
 [exercises.osa12-14_saannolliset_lausekkeet]
 id = 193088
